@@ -328,9 +328,9 @@ function initApp() {
 }
 
 /**
- * Global Configuration: Set your ERPNext Base URL here
+ * ERP requests are routed through same-origin proxy: /api/erp
  */
-const ERP_BASE_URL = 'https://erpnext.ydm-ds1621.synology.me'; // مثال: https://erp.yousefalmehmadi.com
+const ERP_BASE_URL = '';
 
 /**
  * Handle Login process
